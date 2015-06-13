@@ -6,3 +6,22 @@ A: git creates the metadata, because is gits way to keep track of changes
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: the SA is a temporal space, working directory is the hole directory
 
+3)
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: staging only the files asociated to the logical change and then commiting the rest
+
+4)
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: testing new experimental features. They would allow to change and test code without losing de original code and changes in it
+
+5) 
+Q: How do the diagrams help you visualize the branch structure?
+A: it helps to keep track
+
+6) 
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: mixing changes made in two different timelines
+
+7)
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: easy, because you only focus on real conflict
